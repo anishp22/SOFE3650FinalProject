@@ -9,5 +9,6 @@ Final project for Software Design and Architecture
     Saaruca Kugarajh 100751441  
 
 <h2>Project Proposal</h2>
+
     The Project Proposal PDF contains a brief overview of the project. It also contains functional and non-functional requirements for the software.
 
