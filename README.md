@@ -1,6 +1,8 @@
 # SOFE3650FinalProject
 Final project for Software Design and Architecture
 
+<h1>Online Community-Based Car Reservation Platform</h1>
+
 <h2>Authors</h2>
 
     Anish Patel 100751489  
@@ -10,5 +12,6 @@ Final project for Software Design and Architecture
 
 <h2>Project Proposal</h2>
 
-    The Project Proposal PDF contains a brief overview of the project. It also contains functional and non-functional requirements for the software.
+    The Project Proposal PDF contains a brief overview of the project. 
+    It also contains a list of functional and non-functional requirements for the software.
 
