@@ -16,6 +16,8 @@ Final project for Software Design and Architecture
     It also contains a list of functional and non-functional requirements for the software.
 
 <h2>Project Progress Report</h2>
+The Project Progress Report PDF contains following artifacts:
+* [Use Case Model]
+* [Quality Attributes]
+* [System Constraints]
     
-    The Project Progress Report PDF contains following artifacts:
-* Use Case
