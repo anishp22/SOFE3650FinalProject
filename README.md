@@ -18,6 +18,6 @@ Final project for Software Design and Architecture
 <h2>Project Progress Report</h2>
     
     The Project Progress Report PDF contains following artifacts:
-        * Use Case Model
-        * Quality Attributes
-        * System Constraints
+    *Use Case Model
+    *Quality Attributes
+    *System Constraints
