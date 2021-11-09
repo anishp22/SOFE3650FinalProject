@@ -20,6 +20,9 @@ The Project Progress Report PDF contains following artifacts:
 
 
 * [Use Case Model](System%20Requirements/Use%20Case%20Model.pdf)
+    * Shows the most relevant use cases for the project and is further described in a table
 * [Quality Attributes](System%20Requirements/Quality%20Attributes.pdf)
+    * The five most relevant quality attributes are also presented in a table with a description and associated use case
 * [System Constraints](System%20Requirements/System%20Constraints.pdf)
+    * The derived system constraints on the system were collected and shown in a table
     
