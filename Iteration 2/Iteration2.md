@@ -151,5 +151,24 @@ Vehicle Lister : vehicles | returnQuery() | Returns information from database if
 Database : vehicles | queryListings(query)  | Searches the listings using the appropriate query and calls returnQuery() to return a result
 
 
+<h2>Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</h2>
+
+
+Not Addressed  | Partially Addressed | Completely Addressed | Design Decision Made During the Iteration
+------------- | ------------- | ------------- | ------------- 
+|  |   |       UC-1        |  Vehicles lister module that facilitates creating new listings and modifying existing ones has been designed
+| |   |         UC-2      |  Reservations manager modules that facilitates customers booking reservations has been designed
+|  |   |         UC-6      |  Sign up/sign in module that allows for accounts info being accessible between sessions has been deigned
+| |   |          UC-8      |  Modules across the layers and preliminary interfaces to support the searching system have been identified
+|  | QA-1  |               |  No new relevant decisions made since previous iteration
+||QA-2     |               |  The elements of concern in all use cases affecting usability have been identified
+|  | QA-3  |               |  No new relevant decisions made since previous iteration
+|  | QA-4  |               |  Elements that allow users to view relevant information without signing in again (during the same session) and elements that detect unauthorized logins have been identified.
+|  | QA-5  |               |  The elements that relate to modifiability have been identified
+|  | CON-1 |               |  No new relevant decisions made since previous iteration
+| |   |        CON-2       |  Database structure has been designed with user limits as a priority
+|  | CON-3 |               |  Elements that affect network connection have been identified
+| |   |        CON-4        |  The database structure and table interaction has been designed
+ |   |  |      CRN-2        | Knowledge of MySQL has been leveraged to implement a database to store client information
 
 
