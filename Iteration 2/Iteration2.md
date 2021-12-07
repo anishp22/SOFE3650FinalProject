@@ -1,8 +1,8 @@
 <h1>Iteration 2: Identifying Structures to Support Primary Functionality</h1>
 
-This section contains the results of the activites that are performed in each of the steps of ADD in the first iteration of the design process. 
+This section presents the results of the activities that are performed for iteration 2 of the ADD process. 
  
-The pdf file with the full report on iteration 1 can be found here. <--- INSERT LINK TO FOLDER 1 
+The pdf file with the full report on iteration 2 can be found here. <--- INSERT LINK TO FOLDER 1 
 
 
 <h2>Step 1: Review Inputs</h2>
