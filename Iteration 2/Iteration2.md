@@ -83,4 +83,57 @@ database  | All tables are stored in external database
 
 The table above captures elements in the diagram which shows modules that support the primary use cases and provides a description of their functionality.<br>
 
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Figure%205.%20System%20overview.JPG "Title is optional")<br>
+This is a system overview created using the use cases and shows the flow of information. <br>
+
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Figure%206.%20UC-1%20sequence%20diagram.JPG "Title is optional")<br>
+The sequence diagram for UC-1 is shown above. The host should be able to create new listings and modify their existing listings when using the application.<br>
+
+The elements and methods captured in the sequence diagram for UC-1 are explained in this table with a brief description of the functions. <br>
+
+Element | Method | Description
+------------- | ------------- | -------------
+UI : listingsPage  | createListing(brand, model, year, type, location)  | User can use the interface to create a new listing and input the brand, model, year, type, and location of their vehicle
+UI : listingsPage  | requestListingModification(vehicle)  | Creates a request to the vehicleLister element to modify listing information
+UI : listingsPage  | display()  | Displays information back to UI for user to view
+Vehicle Lister : vehicles  | validateListingModification(vehicle)  | Validates the requested modifications and if parameters are correct
+Vehicle Lister : vehicles | listingResult()  | Returns result for creating a listing, either true or false and calls display() to show appropriate message
+Vehicle Lister : vehicles | modificationsResult()  | When vehicle lister module receives a success or fail, it will call display() to display the new listing or an error message
+Database : vehicles | newListings(vehicle)  | Creates a listing with the new vehicle object and stores in database
+Database : vehicles  | modifyListings(vehicle)  | Modifies existing listing in the database
+
+
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Figure%207.%20UC-2%20sequence%20diagram.JPG "Title is optional")<br>
+The sequence diagram for UC-2 is captured in the image above, showing the flow of information from creating a new reservation to deleting one.<br>
+
+The elements and methods captured in the sequence diagram for UC-2 are explained in this table with a brief description of the functions<br>
+
+Element | Method | Description
+------------- | ------------- | -------------
+UI : Reservation Page | makeNewReservation(listing, start date, end date)  | User can request to create a new reservation on a listing by including the start and end dates
+UI : Reservation Page  | requestReservationDeletion(reservation)  | User can request to delete a prior reservation
+UI : Reservation Page | display()  | Displays information provided by the Reservation Manager element
+Reservation Manager : reservations  | validateReservation(listing, start date, end date) | Validates if reservation information is correct
+Reservation Manager : reservations | reservationResult()  | Returns the result of creating a new reservation and calls the display() function
+Reservation Manager : reservations | validateReservationDeletion(reservation) | Validates if reservation deletion request is correct
+Reservation Manager : reservations  | deletionResult() | Returns result of reservation deletion request and calls the display() function
+Database : reservations | newReservation(reservation)  | Creates and stores new reservation in the database
+Database : reservations | deleteReservation(reservation) | Deletes requested reservation from the database
+
+
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Figure%208.%20UC-6%20sequence%20diagram.JPG "Title is optional")<br>
+The sequence diagram for a login system (UC-6) is shown in the figure above. On a successful login attempt, the user should be redirected to the home page of the application, otherwise they should be prompted to re-enter their login details.<br>
+
+The elements and methods captured in the sequence diagram for UC-6 are explained in this table with a brief description of the functions.<br>
+
+Element | Method | Description
+------------- | ------------- | -------------
+UI : searchPage | makeNewReservation(listing, start date, end date)  | User can request to create a new reservation on a listing by including the start and end dates
+UI : searchPage  | requestReservationDeletion(reservation)  | User can request to delete a prior reservation
+Vehicle Lister : vehicles | display()  | Displays information provided by the Reservation Manager element
+Vehicle Lister : vehicles | validateReservation(listing, start date, end date) | Validates if reservation information is correct
+Database : vehicles | reservationResult()  | Returns the result of creating a new reservation and calls the display() function
+
+
+
 
