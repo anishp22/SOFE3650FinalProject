@@ -128,11 +128,27 @@ The elements and methods captured in the sequence diagram for UC-6 are explained
 
 Element | Method | Description
 ------------- | ------------- | -------------
-UI : searchPage | makeNewReservation(listing, start date, end date)  | User can request to create a new reservation on a listing by including the start and end dates
-UI : searchPage  | requestReservationDeletion(reservation)  | User can request to delete a prior reservation
-Vehicle Lister : vehicles | display()  | Displays information provided by the Reservation Manager element
-Vehicle Lister : vehicles | validateReservation(listing, start date, end date) | Validates if reservation information is correct
-Database : vehicles | reservationResult()  | Returns the result of creating a new reservation and calls the display() function
+UI : loginPage | login(email, password) | User can input login information to be sent to the server from client
+UI : loginPage  | display() | Displays appropriate information from the server
+Login Manager : login | checkLogin(email, password)  | Checks if the login input from user is appropriate
+Login Manager : login | loginResult() | Returns login result from database and calls appropriate display()
+Database : accounts | validateLogin(email, password)  | Validates login information with accounts stored in the 
+database
+
+
+
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Figure%209.%20UC-8%20sequence%20diagram.JPG "Title is optional")<br>
+The sequence diagram for UC-8 is shown above. It displays the interactions between the modules that facilitate the query functionality for customers.
+
+The elements and methods captured in the sequence diagram for UC-8 are explained in this table with a brief description of the functions.<br>
+
+Element | Method | Description
+------------- | ------------- | -------------
+UI : searchPage | InputSearch(car model, location, start date, end date, price)  | User can input vehicle query information into client to be sent to server
+UI : searchPage  | display() | Displays appropriate information sent by server
+Vehicle Lister : vehicles | validateQuery(vehicle, location, start date, end date, price)  | Checks if query is appropriate and information is valid
+Vehicle Lister : vehicles | returnQuery() | Returns information from database if query is successful or not
+Database : vehicles | queryListings(query)  | Searches the listings using the appropriate query and calls returnQuery() to return a result
 
 
 
