@@ -2,7 +2,6 @@
 
 This section contains the results of the activites that are performed in each of the steps of ADD in the first iteration of the design process. 
  
-The pdf file with the full report on iteration 1 can be found here. <--- INSERT LINK TO FOLDER 1
 
 <h3>System Constraints</h3>
 
