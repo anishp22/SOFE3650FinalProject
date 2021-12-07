@@ -70,7 +70,7 @@ This iteration is driven by a general architectural concern, but the following d
 
 <h2>Step 3: Choose One or More Elements of the System to Refine</h2>
 
-PUT IMAGE HERE
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%201/Figure%201.%20Context%20diagram%20for%20car%20reservation%20system.JPG "Context Diagram")
 
 The element to be refined is the Car Reservation System Server and the Database as shown in the context diagram. 
 The refinement of these elements will be done through decomposition.
@@ -133,8 +133,11 @@ Relationships  | Description
 Client Server and Application Server  | Accepts and validates user queries. Format and display retrieved information. 
 Application Server and Database  | REST API used to facilitate information transactions (store and retrieve information in the database).
 
-INSERT IMAGE HERE
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%201/Figure%202.%20Module%20view%20of%20web%20reference%20architecture.JPG "Web Reference Architecture") <br>
+The diagram above shows a sketch of a module view of the web reference architecture selected for this application that has been adapted accordingly to the design decisions
 
+
+![picture alt](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%201/Figure%203.%20Initial%203-tier%20deployment%20pattern%20diagram.JPG "3Tier Deployment Pattern") <br>
 The figure above shows the initial 3-tier deployment pattern selected to be used for the system.
 
 
