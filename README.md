@@ -33,6 +33,54 @@ This section contains the results of the activites that are performed in each of
  
 The pdf file with the full report on iteration 1 can be found here. <--- INSERT LINK TO FOLDER 1
 
+<h3>System Constraints</h3>
+
+A set of constraints on the overall system and deployment were collected and presented in the table below. 
+
+ID  | Constraint
+------------- | -------------
+CON-1  | The database should be accessible using a web browser
+CON-2  | A minimum of 1000 users should be supported.
+CON-3  | Network connection can have low bandwidth but should be reliable
+CON-4  | The database should be created using MySQL
+
+<h3>Architectural Concerns</h3>
+
+ID  | Concern
+------------- | -------------
+CRN-1  | Establishing an initial system structure
+CRN-2  | Leverage the team’s knowledge on cloud database services that can support relational databases (ie. MySQL)
+
+<h2>Step 1: Review Inputs</h2>
+
+The following inputs were reviewed on their significance for iteration 1 to select a general architecture of the system.
+
+Category  | Details
+------------- | -------------
+Design Purpose  | Design the optimal peer-to-peer sharing model for a car rental website. 
+Primary Functional Requirements  | UC-1: Manage Listings <br> UC-2: Reservations <br> UC-6: Login <br> UC-8: Search Listings
+
+<h3>Quality Attribute Scenarios</h3>
+
+Scenario ID  | Importance to the Customer  | Difficulty of Implementation According to the Architect
+------------- | -------------  | -------------
+QA-1  | Med  | High
+QA-2  | High   | Med
+QA-3  | Med   | High
+QA-4  | High   | High
+QA-5  | Med   | High
+QA-6  | Low  | Med
+
+From this list, QA-1,2,3 4 and 5 are selected as drivers.
+
+Constraints
+All constraints mentioned in the progress report are included as drivers.
+
+Architectural Concerns
+All concerns mentioned in Architectural Concerns are included as drivers.
+
+
+
 <h2>Step 2: Establish Iteration Goal by Selecting Drivers</h2>
 
 
