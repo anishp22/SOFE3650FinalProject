@@ -38,9 +38,9 @@ The Project Progress Report PDF contains following artifacts:
 
 Links to iterations 1 to 3 can be found below. <br>
 
-[Iteration 1] <br>
-[Iteration 2] <br>
-[Iteration 3] <br>
+[Iteration 1](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%201/Iteration1.md)<br>
+[Iteration 2](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%202/Iteration2.md)<br>
+[Iteration 3](https://github.com/anishp22/SOFE3650FinalProject/blob/main/Iteration%203/Iteration3.md) <br>
 
 
 
